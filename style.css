@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #4a5158;
+}
+
+/******* HERO STYLES *******/
+header {
+  background-color: #672455;
+  color: white;
+  height: 100vh;
+}
+h1 {
+  margin: 0;
+  padding-top: 3em;
+  font-size: 5em;
+}
+#down-arrow {
+  padding-top: 20em;
+}
+
+/******* MAIN STYLES *******/
+
+main {
+  background: whitesmoke;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+li, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2e6ee;
+  height: 100vh;
+}
+
+.info {
+  width: 25em;
+  padding-top: 12em;
+}
+
+#my-education {
+  order: -2;
+}
+#work-experience {
+  line-height: 2.5em;
+}
+
+.apps {
+  padding: .75em;
+  font-size: 1.5em;
+}
+a {
+  text-decoration: none;
+  color: #4a5158;
+}
+
+#top-ten-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ol li {
+  margin: 2em;
+  padding: 3em;
+  border-radius: .5em;
+  box-shadow: 2px 4px 10px grey;
+}
+
+#top-ten-list p {
+  width: 240px;
+}
+
+/******* ABOUT STYLES *******/
+
+#about-me {
+  height: 100vh;
+  padding-top: 10em;
+  padding-right: 20em;
+  padding-left: 20em;
+}
+
+#profile {
+  border-radius: 15em;
+  box-shadow: 4px 8px 6px grey;
+}
+
+
+/******* QUIZ STYLES *******/
+
+#quiz {
+  height: 100vh;
+}
+#lets-play {
+  padding-top: 5em;
+}
+
+#start-quiz {
+  background: #672455;
+  color: #fff;
+  padding: 1em 2em;
+  font-size: 1em;
+  border-radius: .5em;
+  border: none;
+  /* border-color: #672455; */
+  box-shadow: 2px 4px 10px grey;
+  cursor: pointer;
+}
+
+#start-quiz:hover {
+  background-color: rgba(103, 36, 85, 0.8);
+}
+
+
+/************ MEDIA QUERIES *************/
+
+@media screen and (max-width: 992px) {
+
+}
